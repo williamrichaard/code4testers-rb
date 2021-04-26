@@ -23,3 +23,19 @@ snake_case_nome("William")
 
 # --------------------------------------------------------------------------------------- #
 
+#3 exemplo soma de 2 valores
+def snake_case_soma(valor1, valor2)
+    puts valor1 + valor2
+end
+
+snake_case_soma(2, 3)
+
+# --------------------------------------------------------------------------------------- #
+
+#4 exemplo retornando apenas o valor da soma
+def snake_case_soma(valor1, valor2)
+    resultado = valor1 + valor2
+    return resultado
+end
+
+puts snake_case_soma(2, 4)
