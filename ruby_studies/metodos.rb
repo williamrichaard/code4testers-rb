@@ -44,7 +44,7 @@ puts snake_case_soma(2, 4)
 
 #5 O ruby sempre devolve automaticamente a última instrução de código, exemplo:
 def snake_case_soma(valor1, valor2)
-    valor1 + valor2  # <-- útilma instrução
+    valor1 + valor2  # <-- última instrução
 end
 
 puts snake_case_soma(2, 4)
