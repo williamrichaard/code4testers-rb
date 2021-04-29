@@ -34,3 +34,14 @@ def divide(n1, n2)
 end
 
 divide(10, 3)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+#Operadores de Comparação
+
+def maior_que(v1, v2)
+    puts v1 > v2
+end
+
+# Retorna true, porque 10 é maior que 5
+maior_que(10, 5)
