@@ -5,21 +5,21 @@ def soma(n1, n2)
 	puts n1 + n2
 end
 
-soma(2, 3)
+soma(2, 2)
 
 #SUBTRAÇÃO
 def subtrai(n1, n2)
 	puts n1 - n2
 end
 
-subtrai(2, 3)
+subtrai(2, 2)
 
 #MULTIPLICAÇÃO
 def multiplica(n1, n2)
 	puts n1 * n2
 end
 
-multiplica(2, 3)
+multiplica(2, 2)
 
 #DIVISÃO
 def divide(n1, n2)
