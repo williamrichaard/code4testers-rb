@@ -23,14 +23,14 @@ multiplica(2, 2)
 
 #DIVISÃO
 def divide(n1, n2)
-	puts n1.to_f / n2.to_f #to_f é um metódo nativo do ruby que converte para float
+	puts n1.to_f / n2.to_f # <-- to_f é um metódo nativo do ruby que converte para float
 end
 
 divide(10, 3)
 
 #DIVISÃO
 def divide(n1, n2)
-	puts (n1.to_f / n2.to_f).round(2) #round é um metódo nativo do ruby que arredonda o resultado
+	puts (n1.to_f / n2.to_f).round(2) # <-- round é um metódo nativo do ruby que arredonda o resultado
 end
 
 divide(10, 3)
