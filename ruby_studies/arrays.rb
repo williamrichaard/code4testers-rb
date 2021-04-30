@@ -5,3 +5,7 @@ puts bandas[1]
 puts bandas[2]
 puts bandas[3]
 puts bandas[4]
+
+bandas.push("Cleane dos Teclados")
+
+puts bandas[5]
