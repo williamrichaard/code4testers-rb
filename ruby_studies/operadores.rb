@@ -71,4 +71,11 @@ def igual(v1, v2)
 end
 
 # Deve retornar true, porque 10 é de fato igual a 10
-igual(10, 10)
+#igual(10, 10)
+
+def diferente(v1, v2)
+	puts v1 != v2
+end
+
+# Deve retornar true, porque 10 (inteiro) é de fato diferente de 10 (string)
+diferente(10, "10")
