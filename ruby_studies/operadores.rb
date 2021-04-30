@@ -51,3 +51,24 @@ end
 
 # Retorna false, porque 10 não é maior que 10, ele é igual
 # maior_que(10, 10)
+
+def maior_que(v1, v2)
+	puts v1 < v2
+end
+
+# Retorna true, porque 5 é menor que 10
+# menor_que(5, 10)
+
+def maior_ou_igual_que(v1, v2)
+	puts v1 >= v2
+end
+
+# Retorna true, porque 10 é igual 10
+#maior_ou_igual_que(10, 10)
+
+def igual(v1, v2)
+	puts v1 == v2
+end
+
+# Deve retornar true, porque 10 é de fato igual a 10
+igual(10, 10)
