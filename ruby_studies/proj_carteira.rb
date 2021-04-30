@@ -2,7 +2,8 @@ nome = "William"
 idade = 26
 
 if (idade >= 18)
-  puts "Você pode tirar carteira de motorista."
+  # concatenado
+  puts nome + ", você pode tirar carteira de motorista."
 else
-  puts "Melhor continuar andando de bicicleta"
+  puts nome + ", melhor continuar andando de bicicleta"
 end
