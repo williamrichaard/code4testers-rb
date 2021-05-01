@@ -11,7 +11,7 @@ cleane = { nome: "Cleane", email: "cleane@hotmail.com", legal:true }
 # puts cleane[:email]
 # puts cleane[:legal]
 
-pessoas = [william, cleane]
+pessoas = [william, cleane] # array de hashes
 
 puts pessoas[0][:nome]
 puts pessoas[1][:email]
