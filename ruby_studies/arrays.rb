@@ -12,4 +12,11 @@ bandas.push("Cleane dos Teclados") # push é um método que funciona para variá
 
 bandas.delete("Queen") # delete remove um elemento do array
 
-puts bandas
+#puts bandas
+
+pagode = bandas.find { |item| item == 'Molejão' } # find método que busca dentro do array
+
+# Método include
+pagode = bandas.find { |item| item.include? ('Molejão') } # retorna verdadeiro ou falso
+
+puts pagode
